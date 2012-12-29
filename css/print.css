@@ -1,0 +1,66 @@
+/*******************************************************************************************************************
+*  Author: Tomas Lach (www.tomaslach.cz)                                                                           *
+*  Date: 27.02.2011                                                                                                *
+*******************************************************************************************************************/
+* {background: none !important}
+body {color: #000;font: normal 12px Arial,sans-serif;padding-top: 0}
+p {font-size: 1.0em;line-height: 1.8em;margin-bottom: 15px}
+address {font-style: normal;padding-bottom: 15px}
+img {display: none}
+hr {margin-top: 20px;}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           *
+*******************************************************************************************************************/
+a, a:link, a:focus {color: #000;outline: 0}
+a:visited {color: #000}
+a:hover {color: #000;text-decoration: none}
+a.more {display: none}
+
+/*******************************************************************************************************************
+*  TITLES                                                                                                          *
+*******************************************************************************************************************/
+h1, h2, h3, h4, h5 {margin: 0 0 10px 0;font-family: Helvetica, Arial}
+h1 {font-size: 3.0em;color: #000;margin-bottom: 5px;font-weight: normal;}
+h2 {font-size: 1.6em;color: #000;margin-bottom: 20px;font-weight: normal;}
+h3 {font-size: 1.2em;color: #000;margin-bottom: 20px;text-transform: uppercase}
+h4 {font-size: 1.2em;color: #000;}
+h5 {font-size: 1.1em}
+
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          *
+*******************************************************************************************************************/
+#header {display: none}
+
+/*******************************************************************************************************************
+*  CONTENT                                                                                                         *
+*******************************************************************************************************************/
+#content {margin-bottom: 0}
+#content #cols {margin-bottom: 40px;padding: 0}
+#content #cols li {margin-bottom: 20px;padding-bottom: 20px;width: 100%;height: auto !important;float: none;background: none;}
+#content #cols li.middle {width: 100%;}
+
+#content ul {list-style: none;padding: 5px 10px 25px}
+#content ul li {padding: 3px 0 3px 0px;}
+
+#content table {width: 100%;border-collapse: collapse;border: 1px solid #efefef}
+* #content table th {text-align: left;padding: 10px;border: 1px solid #ccc;border-bottom: 3px solid #ccc;background: #ccc !important;color: #000}
+#content table td {padding: 7px 10px;border: 1px solid #ccc}
+* #content table .dark td {background: #f7f7f7}
+
+#content form {display: none}
+
+    
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          *
+*******************************************************************************************************************/
+#footer p {color: #000;font-size: 11px;padding-top: 0}
+#footer p a {color: #000;}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    *
+*******************************************************************************************************************/
+.high {font-weight: bold;color: #2d7bac}
+.inner {padding: 15px 20px}
+.middle {margin: 0;width: 100% !important;position: relative;}

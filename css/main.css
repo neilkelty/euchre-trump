@@ -1,0 +1,140 @@
+/*******************************************************************************************************************
+*  Author: Tomas Lach (www.tomaslach.cz)                                                                           
+*  Date: 23.10.2011                                                                                                
+*******************************************************************************************************************/
+
+/*******************************************************************************************************************
+*  IMPORT OTHER STYLES                                                                                             
+*******************************************************************************************************************/
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:900|Permanent+Marker);
+
+/*******************************************************************************************************************
+*  BASE                                                                                                            
+*******************************************************************************************************************/
+body {color: #010101;font: normal 14px Helvetica, Arial, Tahoma, Verdana;background-image: url('../img/background.png');background-repeat: repeat-x}
+p {line-height: 1.7em;margin-bottom: 15px}
+address {font-style: normal;padding-bottom: 15px;}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           
+*******************************************************************************************************************/
+a, a:link, a:focus {color: #2f2f2f;outline: 0;}
+a:hover {color: #000;text-decoration: none}
+
+/*******************************************************************************************************************
+*  H1 - H4                                                                                                         
+*******************************************************************************************************************/
+h1, h2, h3, h4 {font-family: "Helvetica Neue", Arial;font-weight: bold}
+h1 {font-size: 4.4em;font-family: 'Lato', Arial;margin-bottom: 20px;color: #fff;text-shadow: 0 -1px 0 #4d4d4d}
+h2 {font-size: 1.8em;margin-bottom: 20px;color: #86898b;text-shadow: 0 1px 0 #fff;}
+h3 {font-size: 1.3em;margin: 20px 0 20px;color: #86898b;}
+h4 {font-size: 1.1em;margin: 10px 0 20px;color: #86898b;}
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          
+*******************************************************************************************************************/
+#intro {height: 375px;color: #a6a7ab;padding-left: 345px;padding-top: 225px}
+#top {padding: 20px 0 25px;color: #a6a7ab;}
+.header #iphone {background: url('../img/iphone.png') no-repeat;width: 310px;height: 605px;position: absolute;top: 30px;left: -5px;}
+.header #iphone img {position: relative;top: 106px;left:25px}
+#intro.header nav ul {position: absolute;left: 345px;top: 155px}
+#top.header nav ul {position: absolute;right: 0;top: 25px}
+#top h1 {font-size: 2.2em;margin: 0}
+.header nav ul li {float: left;margin-right: 20px;}
+.header nav ul li a {float: left;background: url('../img/nav-left.png') no-repeat 0 0;text-decoration: none;height: 32px;display: block}
+.header nav ul li a span {font-family: "Helvetica Neue", Arial;font-size: 13px;color: #9fa8b0;text-shadow: 1px 1px 2px #000;float: left;background: url('../img/nav-right.png') no-repeat 100% 0;height: 32px;line-height: 31px;position: relative;left: 7px;padding: 0 17px 0 10px;display: block}
+.header nav ul li a:hover span {color: #fff}
+.header nav ul li.active a:hover span {color: #9fa8b0}
+.header nav ul li.active a {background: url('../img/nav-active-left.png') no-repeat 0 0;}
+.header nav ul li.active a span {background: url('../img/nav-active-right.png') no-repeat 100% 0;}
+.header .review {margin-bottom: 30px}
+.header .review p {margin: 0 0 5px;text-shadow: 1px 1px 1px #000}
+.header .review .author {color: #6d727d;text-shadow: 1px 1px 1px #000;float: left;margin-right: 10px}
+.header .review .star-rating {float: left}
+.header ul.styled {padding-left: 20px;margin-bottom: 10px}
+.header ul.styled li {font-family: "Helvetica Neue", Arial;background: url('../img/plus.png') no-repeat 0 50%;padding: 3px 0 3px 20px;font-size: 1.0em}
+.header .appstore {margin-top: 40px;clear: both;display: block;text-decoration: none;width: 100%;background: url('../img/arrow.png') no-repeat 230px 15px;position: relative;font-family: "Permanent Marker", Arial;font-weight: normal;font-size: 2.5em;color: #595d60}
+.header .appstore strong {position: absolute;left: 370px;top: 7px}
+.header .appstore:hover strong {color: #fff;}
+.header .requires {padding-left: 40px;font-size: 0.8em;color: #6c7177}
+
+/*******************************************************************************************************************
+*  MAIN                                                                                                         
+*******************************************************************************************************************/
+#main {background: #fff;padding: 40px 0}
+#main table {border:1px solid #CCC;margin-bottom: 30px;border-collapse: collapse}
+#main table td {font-size: 0.9em;border-bottom:1px solid #CCC !important;}
+#main table th {background: #f7f7f7;border-bottom:2px solid #ccc;} 
+#main fieldset {border:1px solid #CCC;}
+#main fieldset legend {color:#007DB8;}
+#main form th {color:#666;}
+#main .input-text {border:1px solid #CCC;}
+#main .input-submit {border:1px solid #000; background-color:#000; color:#FFF;}
+#main ul {margin-left:10px;margin-bottom: 30px;}
+#main ul li {padding: 5px 0 5px 20px; background:url("../img/li.png") 0 10px no-repeat;}
+#main ul ul {margin:10px 0 0;}
+#main table th, table td {padding:8px 12px;}
+#main table th {font-weight:bold;} 
+#main fieldset {padding:30px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#main fieldset legend {font-size:1.0em; color: #000;padding: 0 10px;font-weight:bold;}
+#main fieldset table {margin:0;}
+#main form {margin:0;}
+#main form table, #main form th, #main form td {padding:0 !imporant; border:0 !important;}
+#main form th, #main form td {padding:5px 0;}
+#main form th {background: none;padding-right:20px; vertical-align: top;padding-top: 13px;text-align:right; font-weight:normal;}
+#main input, textarea, select {font:13px/19px "arial", sans-serif;}
+#main .input-text {padding:6px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+#main .input-submit {padding:6px 10px; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; font-size:13px;}
+
+/*******************************************************************************************************************
+*  CONTENT                                                                                                         
+*******************************************************************************************************************/
+#content {padding: 60px 0 30px;background: #e8edef;}
+/* Columns */
+#content #cols {padding: 0 0}
+#content #cols > li {width: 285px;float: left;}
+#content #cols > li.middle {margin: 0 60px;}
+#content #cols > li p {font-size: 0.9em;color: #2e2f35;text-shadow: 1px 1px 1px #fff}
+#content #cols > li p .date {display: block;margin-top: 5px;color: #8e8f97;font-size: 0.8em}
+#content #newsletter #text {width: 179px;height: 38px;border: 0;float: left;margin-right: 10px;background: url('../img/newsletter-input.png') no-repeat 0 0;font-size: 1.0em;padding: 0 10px;}
+#content #newsletter button {width: 37px;height: 38px;border: 0;float: left;background: url('../img/newsletter-submit.png') no-repeat 0 0;cursor: pointer;text-indent: -9999px}
+
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          
+*******************************************************************************************************************/
+#footer {padding: 30px 0;color: #2f2f2f;font-size: 0.9em}
+#footer p span {color: #9f9f9f}
+
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    
+*******************************************************************************************************************/
+.wrap {margin: 0 auto;position: relative;width: 976px}
+.mask {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.star-rating {list-style:none;margin: 0px;padding:0px;width: 85px;height: 13px;position: relative;overflow:hidden;background:url('../img/star-inactive.png') top left repeat-x;}
+.star-rating li{padding:0px;margin:0px;width:17px;height:13px;/*\*/float: left;	/* */}
+.star-rating li a{display:block;width:17px;height: 13px;	line-height:13px;text-decoration: none;text-indent: -9000px;z-index: 20;position: absolute;padding: 0px;overflow:hidden;}
+.star-rating li a:hover{background: url('../img/star-active.png') left top;z-index: 2;left: 0px;border:none;}
+.star-rating a.one-star{left: 0px;}
+.star-rating a.one-star:hover{width:17px;}
+.star-rating a.two-stars{left:17px;}
+.star-rating a.two-stars:hover{width: 34px;}
+.star-rating a.three-stars{left: 34px;}
+.star-rating a.three-stars:hover{width: 51px;}
+.star-rating a.four-stars{left: 51px;}	
+.star-rating a.four-stars:hover{width: 68px;}
+.star-rating a.five-stars{left: 68px;}
+.star-rating a.five-stars:hover{width: 85px;}
+.star-rating li.current-rating{background: url('../img/star-active.png') left top;position: absolute;height: 13px;display: block;text-indent: -9000px;z-index: 1;}
+        
+/*******************************************************************************************************************
+*  COLORS                                                                                                         
+*******************************************************************************************************************/
+.red h1 {text-shadow: 0 -1px 0 #4d4d4d}
+.red {background-image: url('../img/red-background.png');}
+.red .header nav ul li a {background: url('../img/red-nav-left.png') no-repeat 0 0;}
+.red .header nav ul li a span {background: url('../img/red-nav-right.png') no-repeat 100% 0;color: red;}
+.red .header nav ul li.active a {background: url('../img/red-nav-active-left.png') no-repeat 0 0;}
+.red .header nav ul li.active a span {background: url('../img/red-nav-active-right.png') no-repeat 100% 0;}
+
